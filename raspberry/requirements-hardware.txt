@@ -1,0 +1,8 @@
+# Instalar SOLO en la Raspberry Pi física, con HARDWARE_MODE=real
+# En una máquina de desarrollo (sin GPIO/I2C) estas librerías no son
+# necesarias: basta con requirements.txt y HARDWARE_MODE=simulator.
+
+adafruit-blinka>=8.0.0
+adafruit-circuitpython-ads1x15>=2.2.0
+gpiozero>=2.0.0
+rpi-lgpio>=0.6

@@ -1,0 +1,7 @@
+# Dependencias comunes (necesarias tanto en modo real como en modo simulador)
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Dependencias SOLO para HARDWARE_MODE=real (Raspberry Pi física)
+# Instalar únicamente en la propia Raspberry Pi:
+#   pip install -r requirements-hardware.txt
